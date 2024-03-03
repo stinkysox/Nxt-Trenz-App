@@ -1,0 +1,30 @@
+.summary-container {
+  margin-left: auto;
+  font-family: 'roboto';
+  text-align: center;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 8px 14px 8px 14px;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.style-span {
+  font-weight: bold;
+}
+
+.summary-price-section {
+  display: flex;
+  align-items: center;
+}
+
+.order-total {
+  font-weight: normal;
+  font-size: 16px;
+}
