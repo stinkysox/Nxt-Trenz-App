@@ -5,7 +5,6 @@ import Loader from 'react-loader-spinner'
 import {BsPlusSquare, BsDashSquare} from 'react-icons/bs'
 
 import CartContext from '../../context/CartContext'
-
 import Header from '../Header'
 import SimilarProductItem from '../SimilarProductItem'
 
@@ -164,6 +163,7 @@ class ProductItemDetails extends Component {
                     className="quantity-controller-button"
                     onClick={this.onDecrementQuantity}
                     data-testid="minus"
+                    aria-label="Decrease Quantity"
                   >
                     <BsDashSquare className="quantity-controller-icon" />
                   </button>
@@ -173,6 +173,7 @@ class ProductItemDetails extends Component {
                     className="quantity-controller-button"
                     onClick={this.onIncrementQuantity}
                     data-testid="plus"
+                    aria-label="Increase Quantity"
                   >
                     <BsPlusSquare className="quantity-controller-icon" />
                   </button>

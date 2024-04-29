@@ -26,6 +26,7 @@ const Cart = () => (
                 <h1 className="cart-heading">My Cart</h1>
                 <div className="btn-container">
                   <button
+                    type="button"
                     data-testid="remove"
                     className="remove-all-btn"
                     onClick={removeAll}
